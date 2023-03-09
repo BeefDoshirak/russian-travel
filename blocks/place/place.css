@@ -14,7 +14,6 @@
 @media screen and (min-width: 768px) {
     .place {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4,auto);
         margin-top: 73px;
         width: calc(100% - 48px);
         column-gap: 28px;

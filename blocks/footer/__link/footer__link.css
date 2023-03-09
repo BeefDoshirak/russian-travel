@@ -2,17 +2,12 @@
     text-decoration: none;
     color: #fff;
     opacity: 1;
+    font-size: 16px;
+    line-height: 18px;
     transition: opacity .15s;
 }
 .footer__link:hover {
     opacity: 0.8;
-}
-
-@media  and (min-width: 768px) {
-    .footer__link {
-        font-size: 16px;
-        line-height: 18px;
-    }
 }
 
 @media screen and (max-width: 767px) {

@@ -1,11 +1,14 @@
-@media screen and (min-width: 768px) {
-    .footer__list {
+
+.footer__list {
         margin: 0 9px 0;
     }
     .footer__list:first-child {
         margin-left: 0;
     }
-}
+    .footer__list:last-child {
+        margin-right: 0;
+    }
+
 
 @media screen and (max-width: 767px) {
     .footer__list {
@@ -13,5 +16,6 @@
     }
     .footer__list:first-child {
         margin-top: 0;
+        margin-left: 16px;
     }
 }

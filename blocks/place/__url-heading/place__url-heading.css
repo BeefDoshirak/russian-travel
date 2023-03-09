@@ -5,6 +5,7 @@
     letter-spacing: 2px;
     margin: 0 16px;
     grid-area: place__url-heading;
+    text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
