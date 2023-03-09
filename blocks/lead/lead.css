@@ -1,0 +1,18 @@
+.lead {
+    display: block;
+    margin: 56px auto 0;
+    position: relative;
+    max-width: 984px;
+}
+
+@media screen and (min-width: 768px) {
+    .lead {
+        min-width: 320px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lead {
+        width: calc(100%-96px);
+    }
+}
