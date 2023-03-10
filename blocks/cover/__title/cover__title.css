@@ -3,7 +3,7 @@
     z-index: 3;
     font-size: 72px;
     line-height: 76px;
-    width: 500px;
+    max-width: 560px;
     margin: 0;
 }
 
@@ -11,6 +11,6 @@
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        width: 220px;
+        width: 254px;
     }
 }
