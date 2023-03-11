@@ -3,16 +3,18 @@
     margin: 56px auto 0;
     position: relative;
     max-width: 984px;
+    min-width: 320px;
 }
-@media screen and (min-width: 1024px) {
+
+@media screen and (max-width: 1024px) {
     .lead {
         width: calc(100% - 96px);
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .lead {
-        min-width: 320px;
+        margin: 48px 0 0;
+        width: 100%;
     }
 }
-
